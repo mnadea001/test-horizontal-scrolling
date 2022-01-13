@@ -13,9 +13,9 @@ div{
     left:0;
     width:500px;
     max-height:800px;
-    margin:0;
+    margin:50px;
+    padding:50px;
     background:red;
-
     overflow-y:auto;
     overflow-x:hidden;
     transform:rotate(-90deg) translateY(-80px);
@@ -23,14 +23,15 @@ div{
   }
   .horizontal-scroll-wrapper > div{
     display:block;
-    padding:15px;
+    padding-bottom:250px;
+    margin:150px;
     background:#cab;
     transform:rotate(90deg);
     transform-origin: right top;
   }
   
   .squares{
-    padding:60px 60px 0 0;
+    padding:60px 0 0 0;
   }
   
   .squares > div{
