@@ -7,31 +7,34 @@ div{
   }
   
   .horizontal-scroll-wrapper{
-    /* position:absolute; */
+
     display:block;
     top:0;
     left:0;
-    width:500px;
-    max-height:800px;
-    margin:50px;
-    padding:50px;
+    width:600px;
+    max-height:900px;
+    /* margin-bottom:50px; */
+    padding:200px;
     background:red;
     overflow-y:auto;
     overflow-x:hidden;
     transform:rotate(-90deg) translateY(-80px);
     transform-origin:right top;
+
   }
+
   .horizontal-scroll-wrapper > div{
+          /* position:absolute; */
     display:block;
-    padding-bottom:250px;
-    margin:150px;
+    /* margin-top:50px; */
     background:#cab;
     transform:rotate(90deg);
     transform-origin: right top;
   }
   
   .squares{
-    padding:60px 0 0 0;
+    /* padding:0 0 0 60px ; */
+
   }
   
   .squares > div{
