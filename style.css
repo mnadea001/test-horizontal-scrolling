@@ -1,0 +1,41 @@
+div{
+    box-sizing:border-box;
+  }
+  
+  body {
+        background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  }
+  
+  .horizontal-scroll-wrapper{
+    /* position:absolute; */
+    display:block;
+    top:0;
+    left:0;
+    width:500px;
+    max-height:800px;
+    margin:0;
+    background:red;
+
+    overflow-y:auto;
+    overflow-x:hidden;
+    transform:rotate(-90deg) translateY(-80px);
+    transform-origin:right top;
+  }
+  .horizontal-scroll-wrapper > div{
+    display:block;
+    padding:15px;
+    background:#cab;
+    transform:rotate(90deg);
+    transform-origin: right top;
+  }
+  
+  .squares{
+    padding:60px 60px 0 0;
+  }
+  
+  .squares > div{
+    width:400px;
+    height:400px;
+    margin:10px;
+  }
+  
