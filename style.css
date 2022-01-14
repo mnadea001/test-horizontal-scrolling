@@ -1,12 +1,25 @@
+/* NAVBAR */
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+
 /* ANIMATED TOGGLER MENU  */
 
 .burger-body{
   display:grid;
-  place-items:end;
+  /* place-items:end; */
   height:10vh;
-  background:#4C23E8;
-  margin:0;
-  padding:0;
+  margin:10px;
+  padding:10px;
+
 }
 
 label{
@@ -17,7 +30,7 @@ label{
 }
 
 label span{
-  background: #fff;
+  background: #4C23E8;
   border-radius:10px;
   height:7px;
   margin: 7px 0;
@@ -118,3 +131,9 @@ div{
   }
   
 
+/* ANIMATION TEXT */
+
+.animation {
+  padding: 2rem;
+
+}
